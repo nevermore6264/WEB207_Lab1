@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/poly.css" rel="stylesheet">
+
+    <title>Menu</title>
+</head>
+<body>
+<div class="container">
+
+    <header class="row">
+        <div class="shopping-mall">
+            <h1>Online shopping</h1>
+            <h5>The center point of the professional programming</h5>
+        </div>
+        <img class="pull-right" src="images/header-object.png"/>
+    </header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Trang chủ</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-list"></span> Giới thiệu</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Liên hệ</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Góp ý</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>Hỏi đáp</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tài khoản <span
+                        class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Giỏ hàng</a></li>
+                        <li><a href="#">Hàng đã mua</a></li>
+                        <li><a href="#">Cập nhật hồ sơ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+
+        <article class="col-sm-9">
+            <h1>Hello World</h1>
+        </article>
+
+        <aside class="col-sm-3">
+            <div class="poly-cart">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="images/shoppingcart.gif" class="col-sm-5">
+                        <ul class="col-sm-7">
+                            <li>100 Sản phẩm</li>
+                            <li>5.000.000 VNĐ</li>
+                            <li><a href="">Xem giỏ hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form method="post">
+                        <input placeholder="Tìm kiếm ..." class="form-control">
+                    </form>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-th-list"></span>
+                    <strong>Chủng loại</strong>
+                </div>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Điện thoại di động</a>
+                    <a href="#" class="list-group-item">Máy tính xách tay</a>
+                    <a href="#" class="list-group-item">Ti vi</a>
+                    <a href="#" class="list-group-item">Tủ lạnh</a>
+                    <a href="#" class="list-group-item">Điều hoà</a>
+
+                </div>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">
+                <p>FPT Polytechnic 2017 . All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
